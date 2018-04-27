@@ -1,0 +1,38 @@
+.Menu {
+  flex: 0 0 256px;
+  min-height: 100vh;
+  background: #001529;
+}
+
+.menu-title,
+.menu-item {
+  color: rgba(255, 255, 255, 0.65);
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+  padding: 0 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.menu-title:hover,
+.menu-item:hover {
+  color: white;
+}
+
+.menu-title::after {
+  content: "-";
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+.menu-child {
+  display: none;
+  overflow-x: hidden;
+  background: #000c17;
+}
+
+.menu-title.menu-hidden::after {
+    content: "+";
+}
