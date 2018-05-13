@@ -31,6 +31,7 @@
   display: none;
   overflow-x: hidden;
   background: #000c17;
+  box-shadow: inset 0 2px 8px rgba(0,0,0,.45);
 }
 
 .menu-title.menu-hidden::after {
