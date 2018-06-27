@@ -5,6 +5,7 @@ export const list = [
     value: "基础组件",
     children: [
       { key: "table", value: "表格", link: "/base/table" },
+      { key: "button", value: "按钮", link: "/base/button" },
     ]
   },
   {
